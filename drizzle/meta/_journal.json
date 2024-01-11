@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1704964459013,
+      "tag": "0000_milky_butterfly",
+      "breakpoints": true
+    }
+  ]
+}
