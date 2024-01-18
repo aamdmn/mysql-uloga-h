@@ -1,11 +1,4 @@
-import {
-  int,
-  mysqlTable,
-  serial,
-  char,
-  boolean,
-  varchar,
-} from "drizzle-orm/mysql-core";
+import { mysqlTable, serial, varchar } from "drizzle-orm/mysql-core";
 
 export const forms = mysqlTable("form", {
   id: serial("id").primaryKey().autoincrement(),
